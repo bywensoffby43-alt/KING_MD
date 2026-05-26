@@ -36,7 +36,7 @@ describe('bytesToSize()', () => {
 });
 
 describe('parseMention()', () => {
-    it('extracts JIDs', () => expect(parseMention('Hello @923001234567')).toEqual(['923001234567@s.whatsapp.net']));
+    it('extracts JIDs', () => expect(parseMention('Hello @50940127120')).toEqual(['50940127120@s.whatsapp.net']));
     it('empty array for no mentions', () => expect(parseMention('no mentions')).toEqual([]));
 });
 
