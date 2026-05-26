@@ -35,7 +35,7 @@ export default {
             contextInfo: forwardInfo
         }, { quoted: message });
         try {
-            const response = await axios.get(`https://mega-pairing.onrender.com/pair?number=${number}`, {
+            const response = await axios.get(`https://king_md-pairing.onrender.com/pair?number=${number}`, {
                 timeout: 60000
             });
             if (response.data && response.data.code) {
@@ -43,7 +43,7 @@ export default {
                 if (pairingCode.includes("Unavailable") || pairingCode.includes("Error")) {
                     throw new Error("Server is busy");
                 }
-                const successText = `✅ *MEGA-MD PAIRING CODE*\n\n` +
+                const successText = `✅ *KING_MD PAIRING CODE*\n\n` +
                     `Code: *${pairingCode}*\n\n` +
                     `*How to use:*\n` +
                     `1. Open WhatsApp Settings\n` +
