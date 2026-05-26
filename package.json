@@ -1,6 +1,6 @@
 {
-  "name": "mega-md",
-  "version": "6.0.0",
+  "name": "KING_MD",
+  "version": "1.0.0",
   "description": "High performance multi-device WhatsApp bot",
   "type": "module",
   "main": "index.js",
@@ -28,7 +28,7 @@
   "keywords": [
     "whatsapp-bot",
     "baileys-bot",
-    "Mega-Md",
+    "KIND_MD",
     "Suhail-Md",
     "multi-device",
     "nodejs-bot",
@@ -37,10 +37,10 @@
   "homepage": "https://github.com/GlobalTechInfo/MEGA-MD",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GlobalTechInfo/MEGA-MD.git"
+    "url": "git+https://github.com/bywensoffby43-alt/KING_MD.git"
   },
   "bugs": {
-    "url": "https://github.com/GlobalTechInfo/MEGA-MD/issues"
+    "url": "https://github.com/bywensoffby43-alt/KING_MD/issues"
   },
   "license": "MIT",
   "author": "Qasim Ali",
