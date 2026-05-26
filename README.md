@@ -13,7 +13,7 @@
 
 ---
 
-<a><img src='https://files.catbox.moe/m8jzaq.jpg'/a>
+<a><img src='https://files.catbox.moe/m8jzaq.jpeg'></a>
 <a><img src='https://files.catbox.moe/m8jzaq.jpeg'/></a>
 
 ***
@@ -24,7 +24,7 @@
 
 `FORK 🍴 AND STAR ⭐ IF YOU LIKE THIS BOT`
 
-<a href="https://github.com/Teddytech1/KING_MD/fork"><img title="WENS DEV" src="https://img.shields.io/badge/FORK-KIND%20MD%20BOT?color=indigo&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/bywensoffby43-alt/KING_MD/fork"><img title="WENS DEV" src="https://img.shields.io/badge/FORK-KIND%20MD%20BOT?color=indigo&style=for-the-badge&logo=stackshare"></a>
 
 ---
 
@@ -48,7 +48,7 @@
 </a>
 
 ### ☁️ 2. KOYEB DEPLOY
-<a href="https://app.koyeb.com/services/deploy?type=git&repository=Teddytech1/KING_MD" target="_blank">
+<a href="https://app.koyeb.com/services/deploy?type=git&repository=bywensoffby43-alt/KING_MD" target="_blank">
   <img src="https://img.shields.io/badge/-Koyeb%20Deploy-FF009D?style=for-the-badge&logo=koyeb&logoColor=white" alt="Koyeb Deploy" width="150" height="28"/>
 </a>
 
@@ -58,7 +58,7 @@
 </a>
 
 ### 🧩 4. PANEL DEPLOY
-<a href="https://github.com/Teddytech1/KING_MD_panel_file/archive/refs/heads/main.zip" target="_blank">
+<a href="https://github.com/bywensoffby43-alt/KING_MD_panel_file/archive/refs/heads/main.zip" target="_blank">
   <img src="https://img.shields.io/badge/Panel%20Zip-000?style=for-the-badge&logo=botpress&logoColor=white" alt="Panel Zip" width="150" height="28"/>
 </a>
 
@@ -82,7 +82,7 @@
 
 **Hi friends!** Need help? Contact me via WhatsApp 👇  
 
-<a href='https://wa.me/+50940124120?text=*ʜɪ+wens+ɪ+ɴᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+KING_MD+ʀᴇᴘᴏ!!*' target="_blank">
+<a href='https://wa.me/+50940127120?text=*ʜɪ+wens+ɪ+ɴᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+KING_MD+ʀᴇᴘᴏ!!*' target="_blank">
 <img alt='WhatsApp' src='https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white'/>
 </a>
 
