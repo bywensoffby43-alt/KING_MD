@@ -4,7 +4,7 @@
  *                                                                           *
  *  🌐  GitHub   : https://github.coom/bywensoffby43-alt                        *
  *  ▶️  YouTube  : https://youtube.com/@wensdev                      *
- *  💬  WhatsApp :     *
+ *  💬  WhatsApp : https://whatsapp.com/channel/0029VbCYwpk5vKA2VG7qos02       *
  *                                                                           *
  *    © 2026 wensdev. All rights reserved.                            *
  *                                                                           *
@@ -64,7 +64,7 @@ export default {
  *                                                                           *
  *  🌐  GitHub   : https://github.com/bywensoffby43-alt                         *
  *  ▶️  YouTube  : https://youtube.com/@wensdev                       *
- *  💬  WhatsApp :     *
+ *  💬  WhatsApp : https://whatsapp.com/channel/0029VbCYwpk5vKA2VG7qos02    *
  *                                                                           *
  *    © 2026 wensdev. All rights reserved.                            *
  *                                                                           *
