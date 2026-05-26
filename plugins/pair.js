@@ -11,7 +11,7 @@ export default {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '12036331909@newsletter',
+                newsletterJid: '120363407376498323@newsletter',
                 newsletterName: 'WENS DEV',
                 serverMessageId: -1
             }
