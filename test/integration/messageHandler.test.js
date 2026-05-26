@@ -116,38 +116,38 @@ describe('handleGroupParticipantUpdate', () => {
 
     it('handles add without crashing', async () => {
         await expect(handleGroupParticipantUpdate(sock, {
-            id: '120363000000000001@g.us', participants: ['923001111111@s.whatsapp.net'],
-            action: 'add', author: '923009999999@s.whatsapp.net',
+            id: '120363408255575737@g.us', participants: ['50940127120@s.whatsapp.net'],
+            action: 'add', author: '50940127120@s.whatsapp.net',
         })).resolves.not.toThrow();
     });
 
     it('handles remove without crashing', async () => {
         await expect(handleGroupParticipantUpdate(sock, {
-            id: '120363000000000001@g.us', participants: ['923001111111@s.whatsapp.net'],
-            action: 'remove', author: '923009999999@s.whatsapp.net',
+            id: '120363408255575737@g.us', participants: ['50940127120@s.whatsapp.net'],
+            action: 'remove', author: '50940127120@s.whatsapp.net',
         })).resolves.not.toThrow();
     });
 
     it('handles promote without crashing', async () => {
         await expect(handleGroupParticipantUpdate(sock, {
-            id: '120363000000000001@g.us', participants: ['923001111111@s.whatsapp.net'],
-            action: 'promote', author: '923009999999@s.whatsapp.net',
+            id: '120363408255575737@g.us', participants: ['50940127120@s.whatsapp.net'],
+            action: 'promote', author: '50940127120@s.whatsapp.net',
         })).resolves.not.toThrow();
     });
 
     it('handles demote without crashing', async () => {
         await expect(handleGroupParticipantUpdate(sock, {
-            id: '120363000000000001@g.us', participants: ['923001111111@s.whatsapp.net'],
-            action: 'demote', author: '923009999999@s.whatsapp.net',
+            id: '120363408255575737@g.us', participants: ['50940127120@s.whatsapp.net'],
+            action: 'demote', author: '50940127120@s.whatsapp.net',
         })).resolves.not.toThrow();
     });
 
     it('invalidates group cache on any update', async () => {
         const { invalidateGroupCache } = await import('../../plugins/antispam.js');
         await handleGroupParticipantUpdate(sock, {
-            id: '120363000000000001@g.us', participants: [], action: 'add', author: '',
+            id: '120363408255575737@g.us', participants: [], action: 'add', author: '',
         });
-        expect(invalidateGroupCache).toHaveBeenCalledWith('120363000000000001@g.us');
+        expect(invalidateGroupCache).toHaveBeenCalledWith('120363408255575737@g.us');
     });
 });
 
@@ -165,14 +165,14 @@ describe('handleCall', () => {
     it('warns caller when anticall enabled', async () => {
         await handleCall(sock, [{ id: 'call-1', from: '923001111111@s.whatsapp.net' }]);
         expect(sock.sendMessage).toHaveBeenCalledWith(
-            '923001111111@s.whatsapp.net',
+            '50940127120@s.whatsapp.net',
             expect.objectContaining({ text: expect.stringContaining('Anticall') })
         );
     });
 
     it('rejects call via rejectCall', async () => {
-        await handleCall(sock, [{ id: 'call-1', from: '923001111111@s.whatsapp.net' }]);
-        expect(sock.rejectCall).toHaveBeenCalledWith('call-1', '923001111111@s.whatsapp.net');
+        await handleCall(sock, [{ id: 'call-1', from: '50940127120@s.whatsapp.net' }]);
+        expect(sock.rejectCall).toHaveBeenCalledWith('call-1', '50940127120@s.whatsapp.net');
     });
 
     it('does not crash on empty calls array', async () => {
