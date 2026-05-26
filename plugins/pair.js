@@ -3,23 +3,23 @@ export default {
     command: 'pair',
     aliases: ['paircode', 'session', 'getsession', 'sessionid'],
     category: 'general',
-    description: 'Get session id for MEGA-MD',
-    usage: '.pair 92305395XXXX',
+    description: 'Get session id for KING_MD',
+    usage: '.pair 50905395XXXX',
     async handler(sock, message, args, context) {
         const { chatId } = context;
         const forwardInfo = {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363319098372999@newsletter',
-                newsletterName: 'MEGA MD',
+                newsletterJid: '12036331909@newsletter',
+                newsletterName: 'WENS DEV',
                 serverMessageId: -1
             }
         };
         const query = args.join('').trim();
         if (!query) {
             return await sock.sendMessage(chatId, {
-                text: "❌ *Missing Number*\nExample: .pair 92305395XXXX",
+                text: "❌ *Missing Number*\nExample: .pair 509XXXXXX",
                 contextInfo: forwardInfo
             }, { quoted: message });
         }
