@@ -12,12 +12,12 @@ export function createMockSock(overrides = {}) {
         groupMetadata: vi.fn(async (jid) => ({
             id: jid,
             subject: 'Test Group',
-            owner: '923001234567@s.whatsapp.net',
+            owner: '50940127120@s.whatsapp.net',
             participants: [
-                { id: '923001234567@s.whatsapp.net', admin: 'superadmin' },
-                { id: '923009999999@s.whatsapp.net', admin: 'admin' },
-                { id: '923001111111@s.whatsapp.net', admin: null },
-                { id: '923002222222@s.whatsapp.net', admin: null },
+                { id: '50940127120@s.whatsapp.net', admin: 'superadmin' },
+                { id: '50940127120@s.whatsapp.net', admin: 'admin' },
+                { id: '50940127120@s.whatsapp.net', admin: null },
+                { id: '50940127120@s.whatsapp.net', admin: null },
             ]
         })),
         groupParticipantsUpdate: vi.fn(async () => ({})),
@@ -32,9 +32,9 @@ export function createMockSock(overrides = {}) {
         updateProfileStatus: vi.fn(async () => ({})),
         rejectCall: vi.fn(async () => ({})),
         user: {
-            id: '923000000000:1@s.whatsapp.net',
-            lid: '923000000000:1@lid',
-            name: 'MEGA Bot'
+            id: '50940127120:1@s.whatsapp.net',
+            lid: '50940127120:1@lid',
+            name: 'KING MD'
         },
         store: {
             contacts: {},
@@ -54,8 +54,8 @@ export function createMockSock(overrides = {}) {
 
 export function createMockMessage(opts = {}) {
     const isGroup = opts.isGroup !== false;
-    const chatId = opts.chatId || (isGroup ? '120363000000000001@g.us' : '923001111111@s.whatsapp.net');
-    const senderId = opts.senderId || '923001111111@s.whatsapp.net';
+    const chatId = opts.chatId || (isGroup ? '120363000000000001@g.us' : '50940127120@s.whatsapp.net');
+    const senderId = opts.senderId || '50940127120@s.whatsapp.net';
 
     return {
         key: {
