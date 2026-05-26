@@ -4,9 +4,9 @@ const config = {
     // Bot Identity
     botName: process.env.BOT_NAME || 'MEGA-MD',
     botOwner: process.env.BOT_OWNER || 'Qasim Ali',
-    ownerNumber: process.env.OWNER_NUMBER || '923051391007',
-    author: process.env.AUTHOR || 'GlobalTechInfo',
-    packname: process.env.PACKNAME || 'MEGA-MD',
+    ownerNumber: process.env.OWNER_NUMBER || '50940127120',
+    author: process.env.AUTHOR || 'bywensoffby43-alt',
+    packname: process.env.PACKNAME || 'KING_MD',
     description: process.env.DESCRIPTION || 'High performance multi-device WhatsApp bot',
     version: '6.0.0',
     // Bot Config
@@ -16,8 +16,8 @@ const config = {
     timeZone: process.env.TIMEZONE || 'Asia/Karachi',
     // Links
     channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
-    updateZipUrl: process.env.UPDATE_URL || 'https://github.com/GlobalTechInfo/MEGA-MD/archive/refs/heads/main.zip',
-    ytChannel: process.env.YT_CHANNEL || 'GlobalTechInfo',
+    updateZipUrl: process.env.UPDATE_URL || 'https://github.com/bywensoffby43-alt/KING_MD/archive/refs/heads/main.zip',
+    ytChannel: process.env.YT_CHANNEL || 'WENS DEV',
     // Session
     sessionId: process.env.SESSION_ID || '',
     pairingNumber: process.env.PAIRING_NUMBER || '',
