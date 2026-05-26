@@ -1,8 +1,8 @@
 {
-  "name": "mega-md",
+  "name": "KING_MD",
   "description": "High performance multi-device WhatsApp bot",
   "keywords": ["whatsapp-bot", "baileys", "mega-md"],
-  "repository": "https://github.com/GlobalTechInfo/MEGA-MD",
+  "repository": "https://github.com/bywensoffby43-alt/KING_MD",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -13,7 +13,7 @@
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number with country code (e.g. 923001234567)",
       "required": true,
-      "value": "923000000000"
+      "value": "50940127120"
     },
     "MONGO_URL": {
       "description": "MongoDB URL for persistent storage (recommended for Heroku)",
@@ -33,12 +33,12 @@
     "BOT_NAME": {
       "description": "Your bot name",
       "required": false,
-      "value": "MEGA-MD"
+      "value": "KIND_MD"
     },
     "BOT_OWNER": {
       "description": "Owner display name",
       "required": false,
-      "value": "GlobalTech"
+      "value": "WENS DEV"
     },
     "PREFIXES": {
       "description": "Command prefixes separated by comma (e.g. .,!,/)",
@@ -48,7 +48,7 @@
     "PACKNAME": {
       "description": "Sticker pack name",
       "required": false,
-      "value": "MEGA-MD"
+      "value": "KING_MD"
     },
     "COMMAND_MODE": {
       "description": "Bot mode: public or private",
