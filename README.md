@@ -2,11 +2,11 @@
 > **CURRENT BOT VERSION ➜ `1.0.0 ⚡`**
 
 <p align="center">
-<a href="https://github.com/Teddytech1/followers"><img title="Followers" src="https://img.shields.io/github/followers/Teddytech1?color=blue&style=flat-square"></a>
-<a href="https://github.com/Teddytech1/TEDDY-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Teddytech1/TEDDY-XMD?color=blue&style=flat-square"></a>
-<a href="https://github.com/Teddytech1/TEDDY-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Teddytech1/TEDDY-XMD?color=blue&style=flat-square"></a>
-<a href="https://github.com/Teddytech1/TEDDY-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/Teddytech1/TEDDY-XMD?style=flat-square&color=green"></a>
-<a href="https://github.com/Teddytech1/TEDDY-XMD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/bywensoffby43-alt/followers"><img title="Followers" src="https://img.shields.io/github/followers/bywensoffby43-alt ?color=blue&style=flat-square"></a>
+<a href="https://github.com/bywensoffby43-alt/KING_MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/bywensoffby43-alt/KING_MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/bywensoffby43-alt/KING_MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/bywensoffby43-alt/KING_MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/bywensoffby43-alt/KING_MD/"><img title="Size" src="https://img.shields.io/github/repo-size/bywensoffby43-alt/KING_MD?style=flat-square&color=green"></a>
+<a href="https://github.com/bywensoffby43-alt/KING_MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=810&height=100&lines=+THANKS+FOR+USING+KING_MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+WENS+DEV" alt="KING_MD Typing SVG" /></a>
