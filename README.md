@@ -92,7 +92,7 @@
 
 [![WhatsApp Channel](https://img.shields.io/badge/JOIN-WHATSAPP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VbCYwpk5vKA2VG7qos02)
 
-[![WhatsApp Group](https://img.shields.io/badge/JOIN-WHATSAPP%20GROUP-25D366?style=for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/EP0hLj5Pjx89s9VXbzZ3iV?mode=ac_t)
+[![WhatsApp Group](https://img.shields.io/badge/JOIN-WHATSAPP%20GROUP-25D366?style=for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/F1mCUmLiQ8CCpF9Zhk9K02)
 
 ---
 
