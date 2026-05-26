@@ -462,7 +462,7 @@ async function startQasimDev() {
                     owner = JSON.parse(fs.readFileSync('./data/owner.json', 'utf-8'));
                 }
                 catch (_e) { }
-                printLog('info', `[ ${config.botName || 'MEGA-MD'} ]`);
+                printLog('info', `[ ${config.botName || 'KING_MD'} ]`);
                 printLog('info', `WA NUMBER  : ${owner[0] || config.ownerNumber || ''}`);
                 printLog('success', `Bot Connected Successfully!`);
                 printLog('info', `Plugins   : ${commandHandler.commands.size}`);
