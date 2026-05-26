@@ -54,7 +54,7 @@ export function createMockSock(overrides = {}) {
 
 export function createMockMessage(opts = {}) {
     const isGroup = opts.isGroup !== false;
-    const chatId = opts.chatId || (isGroup ? '120363000000000001@g.us' : '50940127120@s.whatsapp.net');
+    const chatId = opts.chatId || (isGroup ? '120363408255575737@g.us' : '50940127120@s.whatsapp.net');
     const senderId = opts.senderId || '50940127120@s.whatsapp.net';
 
     return {
