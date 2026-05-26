@@ -15,7 +15,7 @@ const config = {
     commandMode: process.env.COMMAND_MODE || 'public',
     timeZone: process.env.TIMEZONE || 'Asia/Karachi',
     // Links
-    channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
+    channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VbCYwpk5vKA2VG7qos02',
     updateZipUrl: process.env.UPDATE_URL || 'https://github.com/bywensoffby43-alt/KING_MD/archive/refs/heads/main.zip',
     ytChannel: process.env.YT_CHANNEL || 'WENS DEV',
     // Session
