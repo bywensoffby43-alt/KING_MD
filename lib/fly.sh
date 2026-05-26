@@ -1,5 +1,5 @@
 #!/bin/bash
-# MEGA-MD Fly.io One-Click Deployer
+# KING_MD Fly.io One-Click Deployer
 # Usage: bash <(curl -s https://raw.githubusercontent.com/bywensoffby43-alt/KING_MD/main/lib/fly.sh)
 
 set -e
@@ -36,9 +36,9 @@ echo -e "${BOLD}📋 Enter your bot details:${NC}"
 echo ""
 
 read -p "$(echo -e ${CYAN}App name (e.g. my-mega-md): ${NC})" APP_NAME
-APP_NAME=${APP_NAME:-mega-md-bot}
+APP_NAME=${APP_NAME:-king_md}
 
-read -p "$(echo -e ${CYAN}Session ID (GlobalTechInfo/KING_MD_xxxxx): ${NC})" SESSION_ID
+read -p "$(echo -e ${CYAN}Session ID (wensdev/KING_MD_xxxxx): ${NC})" SESSION_ID
 if [ -z "$SESSION_ID" ]; then
     echo -e "${RED}❌ Session ID is required!${NC}"
     exit 1
@@ -47,7 +47,7 @@ fi
 read -p "$(echo -e ${CYAN}Owner WhatsApp number (e.g. 50940127120): ${NC})" OWNER_NUMBER
 OWNER_NUMBER=${OWNER_NUMBER:-50940127120}
 
-read -p "$(echo -e ${CYAN}Bot name (default: MEGA-MD): ${NC})" BOT_NAME
+read -p "$(echo -e ${CYAN}Bot name (default: KING_MD): ${NC})" BOT_NAME
 BOT_NAME=${BOT_NAME:-KING_MD}
 
 read -p "$(echo -e ${CYAN}MongoDB URL (recommended, press Enter to skip): ${NC})" MONGO_URL
