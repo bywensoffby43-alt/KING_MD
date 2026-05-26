@@ -35,7 +35,7 @@ echo ""
 echo -e "${BOLD}📋 Enter your bot details:${NC}"
 echo ""
 
-read -p "$(echo -e ${CYAN}App name (e.g. my-mega-md): ${NC})" APP_NAME
+read -p "$(echo -e ${CYAN}App name (e.g. my-king_md): ${NC})" APP_NAME
 APP_NAME=${APP_NAME:-king_md}
 
 read -p "$(echo -e ${CYAN}Session ID (wensdev/KING_MD_xxxxx): ${NC})" SESSION_ID
