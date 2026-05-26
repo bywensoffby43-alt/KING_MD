@@ -1,15 +1,15 @@
 services:
   - type: web
-    name: mega-md
+    name: king_md
     runtime: docker
     dockerfilePath: lib/Dockerfile
     envVars:
       - key: SESSION_ID
         value: ""
       - key: OWNER_NUMBER
-        value: "923000000000"
+        value: "50940127120"
       - key: BOT_NAME
-        value: "MEGA-MD"
+        value: "KING_MD"
       - key: COMMAND_MODE
         value: "public"
       - key: TIMEZONE
