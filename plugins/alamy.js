@@ -1,12 +1,12 @@
 /*****************************************************************************
  *                                                                           *
- *                     Developed By Qasim Ali                                *
+ *                     Developed By WENS DEV                               *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/GlobalTechInfo                         *
- *  ▶️  YouTube  : https://youtube.com/@GlobalTechInfo                       *
- *  💬  WhatsApp : https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07     *
+ *  🌐  GitHub   : https://github.coom/bywensoffby43-alt                        *
+ *  ▶️  YouTube  : https://youtube.com/@wensdev                      *
+ *  💬  WhatsApp :     *
  *                                                                           *
- *    © 2026 GlobalTechInfo. All rights reserved.                            *
+ *    © 2026 wensdev. All rights reserved.                            *
  *                                                                           *
  *    Description: This file is part of the MEGA-MD Project.                 *
  *                 Unauthorized copying or distribution is prohibited.       *
@@ -60,15 +60,15 @@ export default {
 };
 /*****************************************************************************
  *                                                                           *
- *                     Developed By Qasim Ali                                *
+ *                     Developed By WENS DEV                               *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/GlobalTechInfo                         *
- *  ▶️  YouTube  : https://youtube.com/@GlobalTechInfo                       *
- *  💬  WhatsApp : https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07     *
+ *  🌐  GitHub   : https://github.com/bywensoffby43-alt                         *
+ *  ▶️  YouTube  : https://youtube.com/@wensdev                       *
+ *  💬  WhatsApp :     *
  *                                                                           *
- *    © 2026 GlobalTechInfo. All rights reserved.                            *
+ *    © 2026 wensdev. All rights reserved.                            *
  *                                                                           *
- *    Description: This file is part of the MEGA-MD Project.                 *
+ *    Description: This file is part of the KING_MD Project.                 *
  *                 Unauthorized copying or distribution is prohibited.       *
  *                                                                           *
  *****************************************************************************/
