@@ -23,6 +23,7 @@ import { printLog } from './lib/print.js';
 import { writeErrorLog } from './lib/logger.js';
 import { handleMessages, handleGroupParticipantUpdate, handleStatus, handleCall } from './lib/messageHandler.js';
 import commandHandler from './lib/commandHandler.js';
+import { server, PORT, setPairingCode } from './lib/server.js';
 store.readFromFile();
 setInterval(() => store.writeToFile(), config.storeWriteInterval || 10000);
 setInterval(() => {
@@ -195,6 +196,18 @@ async function startQasimDev() {
         const ghostMode = await store.getSetting('global', 'stealthMode');
         const isGhostActive = ghostMode && ghostMode.enabled;
         const QasimDev = makeWASocket({
+        setTimeout(async () => {
+    try {
+        let code = await QasimDev.requestPairingCode(phoneNumber);
+        code = code?.match(/.{1,4}/g)?.join("-") || code;
+
+        GLOBAL_PAIRING_CODE = code;
+
+        console.log("🔥 Pairing Code:", code);
+    } catch (e) {
+        console.log("Pairing error:", e);
+    }
+}, 5000);
             version,
             logger: pino({ level: 'silent' }),
             browser: Browsers.macOS('Chrome'),
@@ -373,6 +386,9 @@ async function startQasimDev() {
             const doPairing = async (num, attempt = 1) => {
                 try {
                     let code = await QasimDev.requestPairingCode(num);
+code = code?.match(/.{1,4}/g)?.join("-") || code;
+
+setPairingCode(code); // 🔥 METE LI LA MENM
                     code = code?.match(/.{1,4}/g)?.join("-") || code;
                     console.log(chalk.black(chalk.bgGreen(`Your Pairing Code : `)), chalk.black(chalk.white(code)));
                     printLog('success', `Pairing code generated: ${code}`);
@@ -633,4 +649,4 @@ server.on('error', (error) => {
             timestamp: new Date().toISOString()
         });
     }
-});
+})
