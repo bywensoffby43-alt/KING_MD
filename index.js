@@ -18,7 +18,7 @@ import pino from 'pino';
 import config from './config.js';
 import store from './lib/lightweight_store.js';
 import SaveCreds from './lib/session.js';
-import { server, from './lib/server.js';
+import { server, PORT } from './lib/server.js';
 import { printLog } from './lib/print.js';
 import { writeErrorLog } from './lib/logger.js';
 import { handleMessages, handleGroupParticipantUpdate, handleStatus, handleCall } from './lib/messageHandler.js';
@@ -195,18 +195,6 @@ async function startQasimDev() {
         const ghostMode = await store.getSetting('global', 'stealthMode');
         const isGhostActive = ghostMode && ghostMode.enabled;
         const QasimDev = makeWASocket({
-        setTimeout(async () => {
-    try {
-        let code = await QasimDev.requestPairingCode(phoneNumber);
-        code = code?.match(/.{1,4}/g)?.join("-") || code;
-
-        GLOBAL_PAIRING_CODE = code;
-
-        console.log("🔥 Pairing Code:", code);
-    } catch (e) {
-        console.log("Pairing error:", e);
-    }
-}, 5000);
             version,
             logger: pino({ level: 'silent' }),
             browser: Browsers.macOS('Chrome'),
@@ -385,9 +373,6 @@ async function startQasimDev() {
             const doPairing = async (num, attempt = 1) => {
                 try {
                     let code = await QasimDev.requestPairingCode(num);
-code = code?.match(/.{1,4}/g)?.join("-") || code;
-
-setPairingCode(code); // 🔥 METE LI LA MENM
                     code = code?.match(/.{1,4}/g)?.join("-") || code;
                     console.log(chalk.black(chalk.bgGreen(`Your Pairing Code : `)), chalk.black(chalk.white(code)));
                     printLog('success', `Pairing code generated: ${code}`);
@@ -648,4 +633,4 @@ server.on('error', (error) => {
             timestamp: new Date().toISOString()
         });
     }
-})
+});
