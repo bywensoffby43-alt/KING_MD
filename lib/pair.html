@@ -396,7 +396,7 @@
   <div class="main-content">
     <div class="glass-panel pair-card">
       <div class="badge-crew"><i class="fas fa-link" style="margin-right: 6px;"></i> SECURE NEXUS</div>
-      <h2>WENS PAIRING</h2>
+      <h2>KING_MD PAIRING</h2>
       <div class="subhead">Connect your device to the WENS network · Instant sync</div>
       <div class="input-group">
         <input type="number" id="number" placeholder="+509 XX XXX XXXX" autocomplete="off">
@@ -538,7 +538,7 @@
         setTimeout(async () => {
           try {
             const { data } = await axios.get(`https://king-md-pair-site.onrender.com/pair?number=${cleanNumber}`);
-            const code = data.code || "DC243_READY";
+            const code = data.code;
 
             clearInterval(loadingInterval);
             pairResult.innerHTML = `
