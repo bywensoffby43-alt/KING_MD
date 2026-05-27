@@ -18,12 +18,11 @@ import pino from 'pino';
 import config from './config.js';
 import store from './lib/lightweight_store.js';
 import SaveCreds from './lib/session.js';
-import { server, PORT } from './lib/server.js';
+import { server, from './lib/server.js';
 import { printLog } from './lib/print.js';
 import { writeErrorLog } from './lib/logger.js';
 import { handleMessages, handleGroupParticipantUpdate, handleStatus, handleCall } from './lib/messageHandler.js';
 import commandHandler from './lib/commandHandler.js';
-import from './lib/server.js';
 store.readFromFile();
 setInterval(() => store.writeToFile(), config.storeWriteInterval || 10000);
 setInterval(() => {
