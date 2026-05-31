@@ -2,13 +2,13 @@ import 'dotenv/config';
 const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.', '!', '/', '#'];
 const config = {
     // Bot Identity
-    botName: process.env.BOT_NAME || 'MEGA-MD',
-    botOwner: process.env.BOT_OWNER || 'Qasim Ali',
+    botName: process.env.BOT_NAME || 'KING_MD',
+    botOwner: process.env.BOT_OWNER || 'WENS DEV',
     ownerNumber: process.env.OWNER_NUMBER || '50940127120',
     author: process.env.AUTHOR || 'bywensoffby43-alt',
     packname: process.env.PACKNAME || 'KING_MD',
     description: process.env.DESCRIPTION || 'High performance multi-device WhatsApp bot',
-    version: '6.0.0',
+    version: '1.0.0',
     // Bot Config
     prefixes: _prefixes,
     prefix: _prefixes[0],
